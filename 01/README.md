@@ -68,10 +68,15 @@ Following Algorithm E, values of $m$, $n$ and $r$:
 
 $$
 (6099, 2166, 1767)
+
 (2166, 1767, 399)
+
 (1767, 399, 171)
+
 (399, 171, 57)
+
 (171, 57, 0)
+
 57
 $$
 
@@ -100,5 +105,5 @@ What is $T_{5}$, the average number of times step E1 is performed when $n = 5$?
 
 #### Solution
 
-Following $T_{n} = \frac{12 \ln 2}{\pi^{2}} \cdot \ln n$,
-$T_{5} = \frac{12 \ln 2}{\pi^{2}} \cdot \ln 5 \approx 1.356$.
+Following $T_{n} = \frac{12 \ln 2}{\pi^{2}} \cdot \ln n,$
+$T_{5} = \frac{12 \ln 2}{\pi^{2}} \cdot \ln 5 \approx 1.356.$
