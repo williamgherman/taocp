@@ -25,7 +25,7 @@ possibly the first time this step occurs.
 
 #### Solution
 
-The remainder of the division $m/n$ must be less than *n* (otherwise it would
+The remainder of the division $m/n$ must be less than $n$ (otherwise it would
 carry over). In step E1, we compare the values of the denominator and remainder
 from the previous step, therefore $m$ will always be greater than $n$, except
 maybe at the very start which $m$ and $n$ could be any positive integer.
@@ -33,7 +33,7 @@ maybe at the very start which $m$ and $n$ could be any positive integer.
 ### Exercise 3 [*20*]
 
 Change Algorithm E (for the sake of efficiency) so that all trivial replacement
-operations such as "$m \leftarrow n$" are avoided. Write this new algorithm in
+operations such as " $m \leftarrow n$ " are avoided. Write this new algorithm in
 the style of Algorithm E, and call it Algorithm F.
 
 #### Solution
