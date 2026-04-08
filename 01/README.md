@@ -57,3 +57,48 @@ will have $0 \leq n \lt m$.)
 
 **F6.** [Is it zero?] If $n = 0$, the algorithm terminates; $m$ is the answer.
 Otherwise, go back to step F1. $\blacksquare$
+
+### Exercise 4 [*16*]
+
+What is the greatest common divisor of 2166 and 6099?
+
+#### Solution
+
+Following Algorithm E, values of $m$, $n$ and $r$:
+
+$$
+(6099, 2166, 1767)
+(2166, 1767, 399)
+(1767, 399, 171)
+(399, 171, 57)
+(171, 57, 0)
+57
+$$
+
+### $\blacktriangleright$ Exercise 5 [*12*]
+
+Show that the "Procedure for Reading This Set of Books" that appears in the
+preface actually fails to be a genuine algorithm on three of our five counts!
+Also mention some differences in format between it and Algorithm E.
+
+#### Solution
+
+1. It is not finite; it could continue indefinitely.
+2. It is not definite enough; each step is not defined precisely enough that a
+   primitive computer could follow along.
+3. It is not effective enough that someone could follow along on pencil and
+   paper with rudimentary operations.
+
+Although the general format of a list of steps is similar to Algorithm E, each
+steps in the procedure are broad enough that there is no bracketed descriptor
+for each step, nor is there any terminating step, nor is there a Q.E.D. symbol
+terminating the algorithm.
+
+### Exercise 6. [*20*]
+
+What is $T_{5}$, the average number of times step E1 is performed when $n = 5$?
+
+#### Solution
+
+Following $T_{n} = \frac{12 \ln 2}{\pi^{2}} \cdot \ln n$,
+$T_{5} = \frac{12 \ln 2}{\pi^{2}} \cdot \ln 5 \approx 1.356$.
